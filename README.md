@@ -20,3 +20,11 @@ W projektowaniu strony internetowej użyłem: <br>
  dla urządzeń mobilnych
   
  ![image](https://user-images.githubusercontent.com/45110318/126074846-9e193e9d-bafb-4a98-b45a-eb2c732a43ec.png)
+<hr>
+
+  
+  
+
+  
+![hexal](https://user-images.githubusercontent.com/45110318/126080006-00ff993c-8e3d-4dce-9e92-71cf47a5809c.png)
+
