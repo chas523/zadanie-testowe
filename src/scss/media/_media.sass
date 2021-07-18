@@ -1,0 +1,105 @@
+
+@media (min-width: 1201px)
+   
+    
+@media (max-width: 1200px)
+    .portfolio__row:nth-child(1)::before
+        display: none
+    .portfolio__row:nth-child(1)::after
+        display: none
+    .contact__wrapper
+        width: 100%
+        display: block
+    .contact__form
+        width: 100%
+    .contact__adrs
+        width: 100%
+        margin-top: 30px
+    .contact__btn
+        width: 100%
+@media (max-width: 991px)
+    .about__links 
+        bottom: -50px
+    .portfolio__row:nth-child(3), .portfolio__row:nth-child(2)
+        position: static
+        width: 100%
+    .about__link 
+        width: 50px
+        height: 30px
+
+    .portfolio__row:nth-child(1)::before
+        display: none
+    .portfolio__row:nth-child(1)::after
+        display: none
+    .portfolio__row
+        justify-content: space-around
+        width: 100%
+        flex-wrap: wrap
+    .portfolio .container
+        display: flex
+        flex-wrap: wrap
+        min-height: auto
+    .lines
+        display: none
+    .portfolio__row img 
+        margin-top: 40px
+    .swiper-pagination
+        text-align: left
+        margin-left: 25px
+@media (max-width: 768px)
+    .subtitle_contact, .subtitle
+        height: auto
+    .header__links
+        display: none
+    .header::after
+        display: none
+    .about__dscr
+        margin-left: 0
+    .swiper-wrapper
+        padding-bottom: 50px
+    .portfolio .container 
+        padding-bottom: 20px
+    .about__wrapper
+        display: block
+    .about__img img
+        margin: 0 auto
+    .title
+        margin-top: 20px
+    .about__link
+        width: 50px
+        height: 50px
+    .about__links
+        bottom: -80px
+    .header__logo
+        display: none
+    .header
+        min-height: auto
+        height: 100% 
+        width: 100% 
+        transition: 0.3s all
+        transform: translate(-700px)
+        &-active
+            transform: translate(0)
+        &__links
+            display: block
+            width: auto
+    .hamburger
+        display: block
+    .header__link a
+        display: block
+        width: 100%
+        font-size: 30px
+        line-height: 100px
+        text-align: center
+    .contact__adrs
+        margin-left: 0
+@media (max-width: 576px)
+   .about__links 
+        position: absolute
+        margin-left: auto
+        margin-right: auto
+        left: 0
+        right: 0
+        text-align: center
+ 
+  

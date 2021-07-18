@@ -1,0 +1,83 @@
+.portfolio
+    margin-top: 153px
+    min-height: 600px
+    padding-bottom: 20px
+    position: relative
+    .container
+        position: relative
+        border-bottom: 1px solid #e4e9eb
+        min-height: 600px
+        &_mod
+            min-height: 20px 
+            border: none 
+            position: absolute
+            bottom: 10px
+    &__row
+        display: flex
+        width: 770px
+        justify-content: space-between
+        margin: 0 auto
+        align-items: center
+        img
+            width: 180px 
+            height: 206px 
+            caret-color: transparent
+            cursor: pointer
+            transition: 0.3s all
+            &:hover
+                transform: scale(1.1)
+        &:nth-child(2)
+            width: 970px
+            position: absolute
+            margin-left: auto
+            margin-right: auto
+            left: 0
+            right: 0
+            text-align: center
+            top: 170px
+        &:nth-child(3)
+            position: absolute
+            margin-left: auto
+            margin-right: auto
+            left: 0
+            right: 0
+            text-align: center
+            top: 340px
+        &:nth-child(1)
+            &::before
+                content: ''
+                position: absolute
+                left: 260px
+                height: 104px
+                width: 2px
+                background-color: #e4e9eb
+            &::after
+                content: ''
+                position: absolute
+                right: 260px
+                height: 104px
+                width: 2px
+                background-color: #e4e9eb
+        &:nth-child(3)
+            &::before
+                content: ''
+                position: absolute
+                left: -15px
+                height: 104px
+                width: 2px
+                background-color: #e4e9eb
+            &::after
+                content: ''
+                position: absolute
+                right: -15px
+                height: 104px
+                width: 2px
+                background-color: #e4e9eb
+.swiper-pagination-bullet
+    border-radius: initial
+    &-active
+        background-color: #8b8784
+
+
+.swiper-container
+    padding-top: 10px 

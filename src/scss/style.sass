@@ -1,0 +1,29 @@
+
+@import "../../node_modules/bootstrap/scss/functions"
+@import "../../node_modules/bootstrap/scss/variables"
+@import "../../node_modules/bootstrap/scss/mixins"
+@import "../../node_modules/bootstrap/scss/reboot"
+@import "../../node_modules/bootstrap/scss/containers"
+@import "../../node_modules/hamburgers/_sass/hamburgers/hamburgers"
+
+*
+    font-family: 'Lato', sans-serif
+
+@import 'sections/header'
+@import 'blocks/lines'
+@import 'sections/portfolio'
+@import 'blocks/title'
+@import 'sections/about'
+@import 'sections/contact'
+@import 'sections/footer'
+@import 'media/media'
+
+.hamburger 
+    display: none
+    position: fixed
+    right: 10px
+    top: 10px 
+    z-index: 100
+
+.hidden
+    overflow: hidden
