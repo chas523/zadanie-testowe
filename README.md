@@ -9,6 +9,8 @@ W projektowaniu strony internetowej użyłem: <br>
   3. Gulp
   4. jQuery, jQuery validate
   5. [Swipe.js ](https://swiperjs.com/)
+
+ 
   <hr>
  Google test: <br> https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Ftest.gojshik.com%2F&tab=desktop <br>
  dla komputerów
